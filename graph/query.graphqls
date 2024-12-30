@@ -1,0 +1,4 @@
+type Query {
+  item(limit: Int = 200, offset: Int = 0, item_id: Int = 0): [Item!]!
+  comment(limit: Int = 200, offset: Int = 0, item_id: Int = 0): [Comment!]!
+}

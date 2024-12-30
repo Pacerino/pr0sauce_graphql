@@ -1,0 +1,15 @@
+type Item {
+    id: ID!
+    item_id: Int!
+    title: String!
+    artist: String!
+    album: String!
+    url: String!
+    acr_id: String
+    provider: String!
+    spotify_url: String
+    spotify_id: String
+    youtube_url: String
+    youtube_id: String
+    comment: Comment
+}

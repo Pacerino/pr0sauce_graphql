@@ -1,0 +1,9 @@
+type Comment {
+    id: ID!
+    comment_id: Int!
+    up: Int!
+    down: Int!
+    content: String!
+    item_id: Int!
+    thumb: String!
+}
