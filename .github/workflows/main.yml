@@ -12,4 +12,6 @@ jobs:
           go-version: '1.23.4'
       - uses: actions/checkout@v3
       - uses: ko-build/setup-ko@v0.6
-      - run: ko build
+      - env:
+          KO_DOCKER_REPO: ghcr.io/pacerino/pr0sauce_graphql
+        run: ko build
